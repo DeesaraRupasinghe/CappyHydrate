@@ -1,0 +1,27 @@
+# Dart / Flutter build artefacts
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+.pub-cache/
+.pub/
+
+# Android build artefacts
+android/.gradle/
+android/local.properties
+android/key.properties
+
+# iOS build artefacts
+ios/Flutter/.last_build_id
+ios/.symlinks/
+ios/Pods/
+ios/Runner.xcworkspace/
+
+# Coverage
+coverage/
+
+# IDE
+.idea/
+*.iml
+.vscode/

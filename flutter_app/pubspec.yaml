@@ -1,0 +1,37 @@
+name: cappy_hydrate
+description: A simple water reminder app with a capybara theme.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Local notifications for water reminders
+  flutter_local_notifications: ^17.2.4
+
+  # Persistent local storage for settings
+  shared_preferences: ^2.3.4
+
+  # State management
+  provider: ^6.1.2
+
+  # Timezone support required by flutter_local_notifications for scheduling
+  timezone: ^0.9.4
+
+  # HTTP for loading images (optional, used for network images)
+  http: ^1.2.2
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
